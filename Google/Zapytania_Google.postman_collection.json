@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "c767af5d-6d0c-466d-9457-959099fc1ec1",
+		"name": "Zapytania Google",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31699428"
+	},
+	"item": [
+		{
+			"name": "GET Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://google.com",
+					"protocol": "https",
+					"host": [
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get fraza testowanie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://google.com/search?q=testowanie",
+					"protocol": "https",
+					"host": [
+						"google",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "testowanie"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
