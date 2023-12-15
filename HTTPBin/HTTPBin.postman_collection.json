@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "694ce524-f220-4ec1-88a6-beec8b79a662",
+		"name": "HTTPBin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31699428"
+	},
+	"item": [
+		{
+			"name": "Autoryzacja",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 123456",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "httpbin.org/bearer",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"bearer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Basic Auth",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "passwd",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "httpbin.org/basic-auth/user/passwd",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"basic-auth",
+						"user",
+						"passwd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
