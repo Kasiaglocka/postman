@@ -18,10 +18,9 @@
 					}
 				],
 				"url": {
-					"raw": "httpbin.org/bearer",
+					"raw": "{{baseUrlHttpBin}}/bearer",
 					"host": [
-						"httpbin",
-						"org"
+						"{{baseUrlHttpBin}}"
 					],
 					"path": [
 						"bearer"
@@ -51,10 +50,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "httpbin.org/basic-auth/user/passwd",
+					"raw": "{{baseUrlHttpBin}}/basic-auth/user/passwd",
 					"host": [
-						"httpbin",
-						"org"
+						"{{baseUrlHttpBin}}"
 					],
 					"path": [
 						"basic-auth",
