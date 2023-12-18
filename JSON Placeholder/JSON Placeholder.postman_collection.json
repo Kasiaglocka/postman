@@ -331,8 +331,14 @@
 	"variable": [
 		{
 			"key": "placeholderUrlC",
-			"value": "https://placeholder.typicode.org\n",
-			"type": "string"
+			"value": "https://placeholder.typicode.org",
+			"type": "string",
+			"disabled": true
+		},
+		{
+			"key": "websiteUrl",
+			"value": "",
+			"disabled": true
 		},
 		{
 			"key": "websiteUrl",
